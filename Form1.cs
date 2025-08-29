@@ -129,7 +129,7 @@ namespace DreamTeller3112
             Application.Exit();
         }
 
-        private void 포춘텔러정보ToolStripMenuItem_Click(object sender, EventArgs e)
+        private void 정보ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FormAbout form = new FormAbout();
             form.ShowDialog();

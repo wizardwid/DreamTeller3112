@@ -155,6 +155,7 @@ namespace DreamTeller3112
             this.정보ToolStripMenuItem.Name = "정보ToolStripMenuItem";
             this.정보ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.정보ToolStripMenuItem.Text = "정보";
+            this.정보ToolStripMenuItem.Click += new System.EventHandler(this.정보ToolStripMenuItem_Click);
             // 
             // Form1
             // 
