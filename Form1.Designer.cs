@@ -36,9 +36,9 @@
             this.내역불러오ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.끝내기ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.tbDream = new System.Windows.Forms.TextBox();
+            this.btnShowResult = new System.Windows.Forms.Button();
+            this.tbResult = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -46,8 +46,8 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.btnShowResult);
+            this.groupBox1.Controls.Add(this.tbDream);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(18, 42);
             this.groupBox1.Name = "groupBox1";
@@ -59,7 +59,7 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.textBox2);
+            this.groupBox2.Controls.Add(this.tbResult);
             this.groupBox2.Location = new System.Drawing.Point(419, 42);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(369, 396);
@@ -115,32 +115,32 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "꿈 내용";
             // 
-            // textBox1
+            // tbDream
             // 
-            this.textBox1.Location = new System.Drawing.Point(35, 84);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(302, 179);
-            this.textBox1.TabIndex = 1;
+            this.tbDream.Location = new System.Drawing.Point(35, 84);
+            this.tbDream.Multiline = true;
+            this.tbDream.Name = "tbDream";
+            this.tbDream.Size = new System.Drawing.Size(302, 179);
+            this.tbDream.TabIndex = 1;
             // 
-            // button1
+            // btnShowResult
             // 
-            this.button1.Location = new System.Drawing.Point(35, 301);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(302, 44);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "해몽 보기";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnShowResult.Location = new System.Drawing.Point(35, 301);
+            this.btnShowResult.Name = "btnShowResult";
+            this.btnShowResult.Size = new System.Drawing.Size(302, 44);
+            this.btnShowResult.TabIndex = 2;
+            this.btnShowResult.Text = "해몽 보기";
+            this.btnShowResult.UseVisualStyleBackColor = true;
             // 
-            // textBox2
+            // tbResult
             // 
-            this.textBox2.ForeColor = System.Drawing.SystemColors.Control;
-            this.textBox2.Location = new System.Drawing.Point(3, 30);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(367, 365);
-            this.textBox2.TabIndex = 0;
+            this.tbResult.ForeColor = System.Drawing.SystemColors.Control;
+            this.tbResult.Location = new System.Drawing.Point(3, 30);
+            this.tbResult.Multiline = true;
+            this.tbResult.Name = "tbResult";
+            this.tbResult.ReadOnly = true;
+            this.tbResult.Size = new System.Drawing.Size(367, 365);
+            this.tbResult.TabIndex = 0;
             // 
             // Form1
             // 
@@ -173,10 +173,10 @@
         private System.Windows.Forms.ToolStripMenuItem 내역불러오ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 끝내기ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 도움ToolStripMenuItem;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button btnShowResult;
+        private System.Windows.Forms.TextBox tbDream;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox tbResult;
     }
 }
 
